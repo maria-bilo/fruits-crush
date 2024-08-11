@@ -1,0 +1,30 @@
+.app {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center align children horizontally */
+    padding: 20px; /* Optional: Add some padding around the entire app */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
+
+.score-text {
+  padding: auto;
+}
